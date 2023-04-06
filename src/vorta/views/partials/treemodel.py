@@ -9,7 +9,15 @@ import os.path as osp
 from functools import reduce
 from pathlib import PurePath
 from typing import Generic, List, Optional, Sequence, Tuple, TypeVar, Union, overload
-from PyQt5.QtCore import QAbstractItemModel, QModelIndex, QObject, QSortFilterProxyModel, Qt, pyqtSignal
+
+from PyQt5.QtCore import (
+    QAbstractItemModel,
+    QModelIndex,
+    QObject,
+    QSortFilterProxyModel,
+    Qt,
+    pyqtSignal,
+)
 
 #: A representation of a path
 Path = Tuple[str, ...]

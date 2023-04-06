@@ -1,4 +1,5 @@
 from typing import Optional
+
 from PyQt5.QtCore import QCoreApplication, QEvent, QSize, Qt
 from PyQt5.QtGui import QHelpEvent, QIcon, QMouseEvent, QPaintEvent
 from PyQt5.QtWidgets import QSizePolicy, QStyle, QStylePainter, QToolTip, QWidget

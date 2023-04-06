@@ -1,14 +1,30 @@
 import logging
 from pathlib import Path
+
 from PyQt5 import QtCore, uic
 from PyQt5.QtCore import QPoint
 from PyQt5.QtGui import QFontMetrics, QKeySequence
-from PyQt5.QtWidgets import QApplication, QCheckBox, QFileDialog, QMenu, QMessageBox, QShortcut, QToolTip
+from PyQt5.QtWidgets import (
+    QApplication,
+    QCheckBox,
+    QFileDialog,
+    QMenu,
+    QMessageBox,
+    QShortcut,
+    QToolTip,
+)
+
 from vorta.profile_export import ImportFailedException, ProfileExport
 from vorta.store.models import BackupProfileModel, SettingsModel
-from vorta.utils import borg_compat, get_asset, get_network_status_monitor, is_system_tray_available
+from vorta.utils import (
+    borg_compat,
+    get_asset,
+    get_network_status_monitor,
+    is_system_tray_available,
+)
 from vorta.views.partials.loading_button import LoadingButton
 from vorta.views.utils import get_colored_icon
+
 from .archive_tab import ArchiveTab
 from .export_window import ExportWindow
 from .import_window import ImportWindow

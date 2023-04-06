@@ -1,7 +1,9 @@
 import logging
 import os
+
 from PyQt5 import QtDBus
 from PyQt5.QtCore import QVariant
+
 from vorta.keyring.abc import VortaKeyring
 
 logger = logging.getLogger(__name__)

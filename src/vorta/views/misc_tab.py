@@ -1,7 +1,17 @@
 import logging
+
 from PyQt5 import uic
 from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QApplication, QCheckBox, QFormLayout, QHBoxLayout, QLabel, QSizePolicy, QSpacerItem
+from PyQt5.QtWidgets import (
+    QApplication,
+    QCheckBox,
+    QFormLayout,
+    QHBoxLayout,
+    QLabel,
+    QSizePolicy,
+    QSpacerItem,
+)
+
 from vorta._version import __version__
 from vorta.config import LOG_DIR
 from vorta.i18n import translate

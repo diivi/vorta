@@ -11,6 +11,7 @@ import unicodedata
 from datetime import datetime as dt
 from functools import reduce
 from typing import Any, Callable, Iterable, Optional, Tuple, TypeVar
+
 import psutil
 from paramiko import SSHException
 from paramiko.ecdsakey import ECDSAKey
@@ -19,6 +20,7 @@ from paramiko.rsakey import RSAKey
 from PyQt5 import QtCore
 from PyQt5.QtCore import QFileInfo, QThread, pyqtSignal
 from PyQt5.QtWidgets import QApplication, QFileDialog, QSystemTrayIcon
+
 from vorta.borg._compatibility import BorgCompatibility
 from vorta.i18n import trans_late
 from vorta.log import logger

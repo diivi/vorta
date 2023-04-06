@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+
 import pytest
 from PyQt5 import QtCore
 from PyQt5.QtWidgets import QDialogButtonBox, QFileDialog, QMessageBox
